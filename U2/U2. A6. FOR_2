@@ -1,0 +1,57 @@
+Algoritmo A6FOR2
+	//extra idk
+	Escribir "Zapatería Zapata"
+	Escribir " "
+	
+	//datos "fijos"
+	totalventasfinal = 0
+	
+	//ingresar datos
+		Escribir "Número de vendedores (solo números):"
+		Leer numvendedores
+		
+		Para i <- 1 Hasta numvendedores Con Paso 1 Hacer
+			Escribir "ingrese el nombre del vendedor " i ":"
+			Leer nombrevendedor
+			
+			Escribir "Cuantas ventas realizó " nombrevendedor "? (solo números)"
+			Leer numventas
+			
+			totalventas = 0
+			maxventa = 0
+			
+			Para j <- 1 Hasta numventas Con Paso 1 Hacer
+				Escribir "Ingrese el valor de la venta " j ":"
+				Leer venta
+				totalventas = totalventas + venta
+				Si venta > maxventa Entonces
+					maxventa = venta
+					
+				FinSi
+			FinPara
+			
+			Escribir "Nombre del vendedor: " nombrevendedor
+			Escribir "Total de ventas: $" totalventas
+			Escribir "Número de ventas: " numventas
+			Escribir "Venta más alta: $" maxventa
+			
+			Si maxventa < 100 o totalventas < 1500 Entonces
+				Escribir nombrevendedor ", favor de pasar a Recursos Humanos"
+			FinSi
+			
+			totalventasfinal = totalventasfinal + totalventas
+		FinPara
+		
+		Escribir " "
+		Escribir "Reporte final"
+		Escribir "Número total de vendedores registrados: " numvendedores
+		Escribir "Total de ventas de la empresa: $" totalventasfinal
+		
+		Si totalventasfinal > 20000 Entonces
+			Escribir "Se alcanzó la meta!!"
+		Sino
+			Escribir "Habrá que convocar una reunión"
+		FinSi
+		
+FinAlgoritmo
+
