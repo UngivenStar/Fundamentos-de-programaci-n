@@ -1,0 +1,39 @@
+Algoritmo sin_titulo
+	//defin datos
+	Definir edad_usuario Como Entero
+    Definir personal, médico, empresa Como Logico
+
+	//ingreso de datos
+	Escribir "Ingresa tu edad (solo números)"
+	Leer edad_usuario
+	Escribir "Ingresa tus ingresos mensuales (solo números)"
+	Leer ingresos_usuario
+	Escribir "Ingresa los años que ha ejercido en su puesto de trabajo (solo ingrese años, NO ingrese meses)"
+	Leer at_usuario
+	Escribir "Saldo en su cuenta bancaria"
+	Leer saldo 
+	Escribir "¿Motivo de prestamo? (1 = personal, 2 = médico):"
+    Leer tipo_cret
+	
+	//Operaciones
+	monto_max = (ingresos_usuario * 0.15) * 12
+	
+	//
+	c1 = edad_usuario >= 18
+	c2 = ingresos_usuario >= 4000
+	c3 = at_usuario >= 2
+	c4 = saldo >= 10000
+
+	
+
+	
+	//Visualizacion d datos
+	verificacion_cre = (c1) y (c2) y (c3) o (c4) o tipo_cret
+	
+	//
+	Mostrar  "Edad:" edad_usuario
+	Mostrar  "Ingreso mensual:" ingresos_usuario
+	Mostrar "El monto máximo de su credito sería:" monto_max
+	Mostrar "Su crédito esta:" verificacion_cre
+	
+FinAlgoritmo
