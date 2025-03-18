@@ -1,0 +1,34 @@
+Algoritmo U2FOR1
+	//ingresar datos
+	Escribir "Ingrese el nombre completo del alumno"
+	Leer  nombre
+	
+	Escribir "Cantidad de materias (solo números)"
+	Leer  materias
+
+	
+	Para i <- 1 Hasta materias Hacer
+        Escribir "Ingrese la calificación (en escala del 0 al 10): "
+		Leer calificacion
+		suma <- suma + calificacion
+	FinPara
+	
+	promedio = suma / materias
+	
+	Escribir "Alumno: " nombre
+	Escribir  "Promedio Final: " promedio
+	
+	Si calificacion = 10 Entonces
+        Escribir "Es un alumno destacado"
+      Sino 
+			Si calificacion >= 6 Entonces
+				Escribir "El alumno esta aprobado"
+			Sino
+				Si calificacion < 6 Entonces
+					Escribir "El alumno necesita recursamiento"
+			FinSi
+		FinSi
+	FinSi
+
+	
+FinAlgoritmo
