@@ -1,2 +1,2 @@
-# Fundamentos-de-programaci-n
+# Fundamentos-de-programacion
 Repositorios de código de la uni
