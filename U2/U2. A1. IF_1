@@ -1,0 +1,48 @@
+Algoritmo sin_titulo
+	//Ingresa los datos
+	Escribir "Ingrese los bytes que desea convertir (solo bytes)"
+	Leer byte
+	
+	//valores fijos
+	kilo = 1024
+	mega = 1048576
+	giga = 1073741824
+	tera = 1099511627776
+	peta = 1125899906842624
+	
+	//Calculos
+	Si byte < kilo
+		u = " b"
+		b = byte / 1
+	Finsi
+	
+	Si byte >= kilo y byte < mega
+		u = " KB"
+		b = byte / kilo
+	Finsi
+	
+	Si byte >= mega y byte < giga
+		u = " MB"
+		b = byte / mega
+	FinSi
+	
+	Si byte >= giga y byte < tera
+		u = " GB"
+		b = byte / giga
+	FinSi
+	
+	Si byte >= tera y byte < peta
+		unidad = " TB"
+		b = byte / tera
+	FinSi
+	
+	Si byte >= peta
+		u = " PB"
+		b = byte / peta
+	FinSi
+	
+	//mostrar resultados
+	Escribir "La cantidad equivale a:" 
+	Mostrar b , u
+
+FinAlgoritmo
