@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	Escribir "Ingresa el radio del círculo (en metros):"
+    Leer radio_circulo
+    Escribir "Ingresa la hipotenusa del triángulo (en metros):"
+    Leer hipotesuna_triángulo
+	
+    // Valores fijos
+    pi_pi <- 3.1416
+	
+	// Calculos
+    area_circulo <- (pi_pi) * (radio_circulo)^2
+	area_sector <- area_circulo/2
+	area_cuarto <- area_sector/2
+	radio_chico <- radio_circulo/2
+	area_cirdos <- (pi_pi) * (radio_chico)^2 
+	area_mitadcir <- area_cirdos/2
+    cateto_b <- RAIZ((hipotesuna_triángulo)^2 - (radio_circulo)^2)
+    area_triangulo <- (0.5) * (radio_circulo * cateto_b)
+	area_dobletri <-area_triangulo * 2
+	area_roja <- area_dobletri + area_cuarto - area_mitadcir
+	
+	// Mostrar resultados
+    Escribir "El área sombreada es =", area_roja, " m²"
+		
+FinAlgoritmo
