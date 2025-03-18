@@ -1,0 +1,72 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese la contraseña"
+	Leer intento 
+	Mientras intento <> 20070506 Hacer
+		Escribir "contraseña incorrecta"
+	Fin Mientras
+	
+	//operaciones
+	Escribir ""
+	Escribir "Bienvenido"
+	Escribir "Desea registrar Zanahorias ( 1 ) o Tomates ( 2 )?"
+	Leer producto
+		
+	Escribir "Ingrese el número de cajas:"
+	Leer cajas
+	
+	Si producto = 1 Entonces
+		Para i <- 1 Hasta cajas Con Paso 1 Hacer
+			Escribir "Ingrese el precio de caja " i ": "
+			Leer precio
+			totalprecio = totalprecio + precio
+		Fin Para
+	SiNo
+		Si producto = 2 Entonces
+			Mientras precio <> 100001 Hacer
+				Escribir "Ingrese el precio de la caja (ingrese 100001 para finalizar el registro):"
+				Leer precio
+				totalprecio = totalprecio + precio
+				
+				Si precio = 100001 Entonces
+					Escribir "Registro de precios terminado"
+				FinSi
+			FinMientras
+		Fin Si
+	Fin Si
+	
+	Si totalprecio >= 10000 Entonces
+		totalprecio = (totalprecio * 7.5) / (100)
+	Fin Si
+	
+	Si producto = 1 Entonces
+		peso = totalprecio / 15.84
+	SiNo
+		peso = totalprecio / 11.34
+	Fin Si
+	
+	Escribir " "
+
+	Escribir ""
+	Escribir "-Reporte final-"
+	Si producto = 1 Entonces
+		Escribir "Producto seleccionado: Zanahorias"
+	SiNo
+		Escribir "Producto seleccionado: Tomates"
+	Fin Si
+	Escribir "Número de cajas: " cajas
+	Escribir "Peso total: " peso " Kg"
+	Escribir "Costo total: $" totalprecio
+
+	Escribir "El cliente necesita envio? (si = 4) (no = 5)"
+	Leer envio
+	
+	Si envio = 4 Entonces
+		totalventa = totalprecio + 150
+		Escribir "Costo total CON envio incluido: $" totalventa
+	SiNo
+		Escribir "El costo permanece igual"
+	Fin Si
+	
+	Escribir  ""
+	Escribir "Gracias por su preferencia!!"
+FinAlgoritmo
