@@ -1,0 +1,45 @@
+Algoritmo WHILE_1
+	//definir tipos de datos
+	Definir contraseña, intento Como Cadena
+	Definir piezas, total_piezas Como Entero
+	
+	//la contraseña correcta
+	contraseña = "Upen2025"
+	
+	//validar contraseña
+	Escribir "Ingrese la contraseña:"
+	Leer intento
+	Mientras intento <> contraseña Hacer
+		Escribir "Contraseña incorrecta. Llame al supervisor"
+		Leer intento
+	FinMientras
+
+	Escribir "Bienvenido al sistema de inventario."
+	
+	//registro de piezas
+	Escribir "Ingrese la cantidad de piezas a añadir: "
+	Leer piezas
+	
+	total_piezas = 0
+	
+	Mientras piezas <> 0000 Hacer
+		Escribir "Ingrese la cantidad de piezas a añadir (Ingrese 0000 para finalizar):"
+		Leer piezas
+		total_piezas = total_piezas + piezas
+		
+		Si piezas = 0000 Entonces
+			Escribir "Registro de piezas terminado"
+		FinSi
+	FinMientras
+	
+	Escribir ""
+	// Mostrar resultado
+	Escribir  "Reporte final"
+	Escribir "Total de piezas registradas: " total_piezas
+	Si total_piezas > 10000 Entonces
+		Escribir "Se ha cumplido la meta!!"
+	SiNo
+		Escribir "Alertar a producción"
+	FinSi
+	
+FinAlgoritmo
