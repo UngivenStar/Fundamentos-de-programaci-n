@@ -1,0 +1,113 @@
+Algoritmo sin_titulo
+	
+	//ingresar valores
+	Escribir "Ingresa el valor del vendedor 1"
+	Leer vone
+	Escribir "Ingresa el valor del vendedor 2"
+	Leer vtwo
+	Escribir "Ingresa el valor del vendedor 3"
+	Leer vthree
+	Escribir "Ingresa el valor del vendedor 4"
+	Leer vfour
+	
+	//operaciones
+	suma = vone + vtwo + vthree + vfour
+	promedio = suma / 4
+	one = vfour - vone
+	two = vtwo - vone
+	three = vfour - vthree
+	four = vthree - vtwo
+	
+	//operadores
+	Si vone > vtwo y vone > vthree y vone > vfour Entonces
+		pos1 = vone
+	SiNo
+		Si vtwo > vone y vtwo > vthree y vtwo > vfour Entonces
+			pos1 = vtwo
+			
+		SiNo
+			Si vthree > vone y vthree > vtwo y vthree > vfour Entonces
+				pos1 = vthree				
+			SiNo
+				Si vfour > vone y vfour > vtwo y vfour > vthree Entonces
+					pos1 = vfour
+				Fin Si
+			FinSi
+		FinSi	
+	FinSi
+	
+	Si pos1 > vone Entonces
+		pos2 = vone
+		
+	SiNo
+		Si pos1 > vtwo Entonces
+			pos2 = vtwo			
+		SiNo
+			Si pos1 > vthree Entonces
+				pos2 = vthree
+				
+			SiNo
+				Si pos1 > vfour Entonces
+					pos2 = vfour
+				Fin Si
+			FinSi
+		FinSi	
+	FinSi
+	
+	Si pos2 > vone Entonces
+		pos3 = vone
+	SiNo
+		Si pos2 > vtwo Entonces
+			pos3 = vtwo
+			
+		SiNo
+			Si pos2 > vthree Entonces
+				pos3 = vthree
+				
+			SiNo
+				Si pos2 > vfour Entonces
+					pos3 = vfour
+				Fin Si
+			FinSi
+		FinSi	
+	FinSi
+	
+	
+	
+	Si vone < vtwo y vone < vthree y vone < vfour Entonces
+		pos4 = vone
+	SiNo
+		Si vtwo < vone y vtwo < vthree y vtwo < vfour Entonces
+			pos4 = vtwo
+			
+		SiNo
+			Si vthree < vone y vthree < vtwo y vthree < vfour Entonces
+				pos4 = vthree
+				
+			SiNo
+				Si vfour < vone y vfour < vtwo y vfour < vthree Entonces
+					pos4 = vfour
+				Fin Si
+			FinSi
+		FinSi	
+	FinSi
+	
+	Escribir "Valores en orden de mayor a menor"
+	Escribir pos1 ", " pos2 ", " pos3 ", " pos4
+	
+	
+	Escribir "Resultados de restas"
+	Escribir "El resultado del 4 menos el 1" " = " one
+	Escribir "El resultado del 2 menos el 1" " = " two
+	Escribir "El resultado del 4 menos el 3" " = " three
+	Escribir "El resultado del 3 menos el 2" " = " four
+	
+	Escribir "La suma de todas las ventas es " suma
+	
+	Escribir "El promedio general fue de " promedio	
+	
+
+FinAlgoritmo
+
+	
+
