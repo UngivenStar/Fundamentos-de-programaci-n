@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+	//ingresar datos
+	Escribir "Ingresa el primer número (solo numeros no letras)"
+	Leer num
+	Escribir "Ingresa el segundo número (solo numeros no letras)"
+	Leer nom
+	
+	//operaciones
+	Si num > nom Entonces
+		Escribir "Datos ordenados de mayor a menor: " 
+		Escribir num " y " nom
+	SiNo
+		Escribir "Datos ordenados de mayor a menor "
+		Escribir  nom " y " num
+
+	Fin Si
+	
+	
+FinAlgoritmo
