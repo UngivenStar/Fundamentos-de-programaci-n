@@ -1,3 +1,7 @@
+Un programador tiene problemas para definir si un valor es mayor que otro cuando ingresa 2 números, seguramente no ha leído la documentación, pero para ayudarlo, necesita un programa que al ingresar 2 números, imprima siempre primero el más alto y luego el más bajo.
+
+Si el programador ingresa 11 y 150, la salida deberá mostrar 150 y luego 11. Los números podrán ser ingresados en cualquier orden y siempre deberán indicar cuál es el mayor y cuál es el menor.
+
 Algoritmo sin_titulo
 	//ingresar datos
 	Escribir "Ingresa el primer número (solo numeros no letras)"
@@ -17,3 +21,12 @@ Algoritmo sin_titulo
 	
 	
 FinAlgoritmo
+
+*** Ejecución Iniciada. ***
+Ingresa el primer número (solo numeros no letras)
+> 6
+Ingresa el segundo número (solo numeros no letras)
+> 2
+Datos ordenados de mayor a menor:
+6 y 2
+*** Ejecución Finalizada. ***
