@@ -1,3 +1,12 @@
+Una zapatera necesita registrar los datos de sus vendedores y los datos de las ventas individuales para calcular algunos estándares de calidad a fin de mejorar la productividad y otorgar bonos, así como "cortar cabezas". 
+
+El sistema debe solicitar el a cuántos vendedores se va a registrar su información y de cada vendedor debe solicitar cuántas ventas realizó y de cuánto fue el valor de cada una. 
+
+Después de terminar el registro de las ventas, debe mostrar el total de las ventas de ese vendedor, el número de ventas que hizo y su venta más alta. Si la venta más alta es menor a $100 o el total es menor de $1,500, debe mostrar un mensaje de que pase a Recursos Humanos. 
+
+El reporte final debe entregar un reporte de cuántos vendedores se registraron en el sistema y cuánto fue el total de las ventas globales de la empresa . Si el reporte global es mayor a $20,000 deberá mostrar un mensaje de que se alcanzó la meta , de lo contrario mostrará un mensaje que habrá que convocar una reunión . 
+
+
 Algoritmo A6FOR2
 	//extra idk
 	Escribir "Zapatería Zapata"
@@ -55,3 +64,52 @@ Algoritmo A6FOR2
 		
 FinAlgoritmo
 
+
+*** Ejecución Iniciada. ***
+Zapatería Zapata
+
+Número de vendedores (solo números):
+> 3
+ingrese el nombre del vendedor 1:
+> pepe a
+Cuantas ventas realizó pepe a? (solo números)
+> 2
+Ingrese el valor de la venta 1:
+> 245
+Ingrese el valor de la venta 2:
+> 456
+Nombre del vendedor: pepe a
+Total de ventas: $701
+Número de ventas: 2
+Venta más alta: $456
+pepe a, favor de pasar a Recursos Humanos
+ingrese el nombre del vendedor 2:
+> pepe b
+Cuantas ventas realizó pepe b? (solo números)
+> 2
+Ingrese el valor de la venta 1:
+> 757757
+Ingrese el valor de la venta 2:
+> 98
+Nombre del vendedor: pepe b
+Total de ventas: $757855
+Número de ventas: 2
+Venta más alta: $757757
+ingrese el nombre del vendedor 3:
+> pepe c
+Cuantas ventas realizó pepe c? (solo números)
+> 2
+Ingrese el valor de la venta 1:
+> 37737
+Ingrese el valor de la venta 2:
+> 4746
+Nombre del vendedor: pepe c
+Total de ventas: $42483
+Número de ventas: 2
+Venta más alta: $37737
+
+Reporte final
+Número total de vendedores registrados: 3
+Total de ventas de la empresa: $801039
+Se alcanzó la meta!!
+*** Ejecución Finalizada. ***
