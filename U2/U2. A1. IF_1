@@ -1,12 +1,12 @@
-Design an algorithm that solves the following problem.
+Diseña un algoritmo que resuelva el siguiente problema.
 
-A programmer wants to know which unit of data measure should be the most appropriate depending on the bytes that the user enters. The units to be reviewed are KB, MB, GB, TB and PB. Use the following reference table.
+Un programador desea saber qué unidad de medida de datos debe ser la más adecuada dependiendo de los bytes que ingrese el usuario. Las unidades a revisar son KB, MB, GB, TB y PB. Usa la siguiente tabla de referencia.
 
 
 
-If the user enters 5045 bytes, this is divided by 1024 and the message should be 4.92 KB. 
+Si el usuario ingresa 5045 bytes, este se divide entre 1024 y el mensaje debería ser 4.92 KB. 
 
-Use this link to validate the conversion. https://discoveryformacion.com/calculadora-para-convertir-unidades-de-almacenamiento-informaticas/
+Usa este enlace para validar la información. https://discoveryformacion.com/calculadora-para-convertir-unidades-de-almacenamiento-informaticas/
 
 Algoritmo sin_titulo
 	//Ingresa los datos
