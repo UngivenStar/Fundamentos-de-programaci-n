@@ -1,3 +1,17 @@
+La abarrotera "Kamarena" necesita trabajar en un sistema que le ayude a registrar de manera fácil y rápida todos sus pedidos, hubo una explosión en el mercado al otro lado de la ciudad y ellos han quedado como el único lugar disponible para comprar, esa idea de poner una bomba ha salido terriblemente bien (no hubo ningún herido).
+
+Mientras el dueño sigue luchando entre entregarse a las autoridades por lo sucedido y pedir perdón a las familias involucradas, ha pedido a su asesor externo, el "Teclas" que le ayude con un sistema.
+
+Para ingresar al sistema debe pedir una contraseña (Mientras), que debe ser una fecha de nacimiento en formato YYYY-MM-DD, una vez en el sistema, debe preguntar si (Si) quiere hacer registros de zanahorias o de tomates.
+
+Si elige zanahorias, deberá pedir que se ingresen cuántas cajas deberá ingresar (Para), como cada caja tiene un valor diferente, habrá que ingresarlo manualmente una por una.
+
+Si elige tomates, deberá ingresar cuantas cajas se necesiten y cuando escriba el número 100001 deberá terminar de registrar (Mientras).
+
+En ambos casos, deberá qué opción se eligió y mostrar cuántas cajas se añadieron, cuánto fue el total del peso y cuánto fue el costo total de esa venta, las zanahorias cuestan $15.84 el kilo y los tomates cuestan $11.34 el kilo, si (Si) la venta supera los $10,000, se le hará un descuento automático del 7.5% del valor total.
+
+Finalmente, deberá preguntar si (Si) el cliente necesita o no envío, si requiere envío deberá añadir $150 más a su pedido, de lo contrario, mostrará el precio anterior.
+
 Algoritmo sin_titulo
 	Escribir "Ingrese la contraseña"
 	Leer intento 
@@ -70,3 +84,31 @@ Algoritmo sin_titulo
 	Escribir  ""
 	Escribir "Gracias por su preferencia!!"
 FinAlgoritmo
+
+
+*** Ejecución Iniciada. ***
+Ingrese la contraseña
+> 20070506
+
+Bienvenido
+Desea registrar Zanahorias ( 1 ) o Tomates ( 2 )?
+> 1
+Ingrese el número de cajas:
+> 2
+Ingrese el precio de caja 1:
+> 24
+Ingrese el precio de caja 2:
+> 56
+
+
+-Reporte final-
+Producto seleccionado: Zanahorias
+Número de cajas: 2
+Peso total: 5.0505050505 Kg
+Costo total: $80
+El cliente necesita envio? (si = 4) (no = 5)
+> 4
+Costo total CON envio incluido: $230
+
+Gracias por su preferencia!!
+*** Ejecución Finalizada. ***
