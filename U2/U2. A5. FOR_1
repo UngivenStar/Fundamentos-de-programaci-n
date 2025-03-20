@@ -1,3 +1,9 @@
+Una primaria necesita un sistema para calcular las calificaciones, pero dependiendo del grado varían las materias y eso genera un trabajo más complejo para poder calcular el promedio de cada alumno correctamente.
+
+La directora quiere que los maestros puedan ingresar el nombre del alumno que van a evaluar, después cuántas materias van a calificar, después, ingresar cada calificación, si el resultado es mayor a 6, deberá mostrar un mensaje que aprobó, si es menor, deberá mostrar un mensaje que necesitará recursamiento y si la calificación es igual a 10, deberá mostrar un mensaje que es un alumno destacado.
+
+Al final, el programa debe mostrar un reporte con el nombre del alumno, su promedio final y el mensaje que dependerá de su calificación.
+
 Algoritmo U2FOR1
 	//ingresar datos
 	Escribir "Ingrese el nombre completo del alumno"
@@ -5,7 +11,7 @@ Algoritmo U2FOR1
 	
 	Escribir "Cantidad de materias (solo números)"
 	Leer  materias
-
+	
 	
 	Para i <- 1 Hasta materias Hacer
         Escribir "Ingrese la calificación (en escala del 0 al 10): "
@@ -18,17 +24,32 @@ Algoritmo U2FOR1
 	Escribir "Alumno: " nombre
 	Escribir  "Promedio Final: " promedio
 	
-	Si calificacion = 10 Entonces
+	Si promedio = 10 Entonces
         Escribir "Es un alumno destacado"
-      Sino 
-			Si calificacion >= 6 Entonces
-				Escribir "El alumno esta aprobado"
-			Sino
-				Si calificacion < 6 Entonces
-					Escribir "El alumno necesita recursamiento"
+	Sino 
+		Si promedio >= 6 Entonces
+			Escribir "El alumno esta aprobado"
+		Sino
+			Si promedio < 6 Entonces
+				Escribir "El alumno necesita recursamiento"
 			FinSi
 		FinSi
 	FinSi
 
-	
 FinAlgoritmo
+
+*** Ejecución Iniciada. ***
+Ingrese el nombre completo del alumno
+> pepe pe
+Cantidad de materias (solo números)
+> 3
+Ingrese la calificación (en escala del 0 al 10):
+> 5
+Ingrese la calificación (en escala del 0 al 10):
+> 8
+Ingrese la calificación (en escala del 0 al 10):
+> 2
+Alumno: pepe pe
+Promedio Final: 5
+El alumno necesita recursamiento
+*** Ejecución Finalizada. ***
