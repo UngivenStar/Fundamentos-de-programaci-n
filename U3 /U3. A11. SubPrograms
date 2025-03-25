@@ -1,0 +1,72 @@
+SubProceso Cilindro
+	Escribir "figura seleccionada Cilindro"
+	Escribir "Ingrese el radio (en metros):"
+	Leer  radio
+	
+	Escribir "Ingrese la altura (en metros):"
+	Leer  altura
+	
+	radiotwo = radio * radio
+	area = 3.1417 * radiotwo
+	volumen = altura * area
+	
+	Escribir "Área: " area " m²"
+	Escribir "Volumen: " volumen " m³"
+	
+FinSubProceso
+
+SubProceso Cubo
+	Escribir 	"figura seleccionada Cubo"
+	Escribir "Ingrese el lado (en metros):"
+	Leer  lado
+	
+	area = lado * lado
+	volumen = lado * area
+	
+	Escribir "Área: " area " m²"
+	Escribir "Volumen: " volumen " m³"
+	
+FinSubProceso
+
+SubProceso Prisma
+	Escribir "figura seleccionada Prisma triangular"
+	Escribir "Ingrese la medida de la base (en metros):"
+	Leer  base
+	Escribir "Ingrese la medida de la altura (en metros):"
+	Leer  altura
+	Escribir "Ingrese el ancho (en metros):"
+	Leer  ancho
+	
+	
+	area = (base * altura) / 2
+	volumen = area * ancho		
+	
+	Escribir "Área: " area " m²"
+	Escribir "Volumen: " volumen " m³"
+	
+FinSubProceso
+
+Algoritmo 	djjd
+	sis = 0
+	Mientras sis <> 101 Hacer
+
+	Escribir "seleccione la figura ( Cilindro = 1, Cubo = 2, Prisma triangular = 3)"
+	Leer num
+	
+	Si num = 1  Entonces
+		Cilindro
+	SiNo
+		Si num = 2  Entonces
+			Cubo
+		SiNo
+			Si num = 3  Entonces
+				Prisma
+			Fin si
+		Fin si
+	Fin Si
+	
+	Escribir "desea finalizar el programa (101) o volver a iniciar"
+	Leer sis
+Fin Mientras
+
+FinAlgoritmo
