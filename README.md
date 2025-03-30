@@ -14,6 +14,8 @@
 
 Descripción breve de la materia: Una materia introductoria que enseña los principios básicos del desarrollo de software.
 
+![separador](https://img.freepik.com/vector-gratis/fondo-vector-noche-espacio-galaxia-cielo-purpura-banner-cosmos-abstracto-rosa-planeta-diseno-exterior-textura-luz-estrellada-encabezado-sitio-web-metaverso-dibujos-animados-grafico-gradiente-brillante-moderno_107791-22144.jpg)
+
 **Unidad 1**
 
 Descripción breve de la unidad: En esta unidad se aprendio acerca de los algoritmos, Metodología para la resolución de
