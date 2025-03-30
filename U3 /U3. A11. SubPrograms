@@ -1,3 +1,7 @@
+Diseña un algoritmo que emplee subprogramas / funciones / subprocesos, para calcular el área y volumen de 3 figuras geométricas diferentes. 
+
+El usuario debe poder elegir cuál figura desea calcular y mostrar sus resultados, el programa debe poder repetirse si el usuario lo desea y elegir otra opción.
+
 SubProceso Cilindro
 	Escribir "figura seleccionada Cilindro"
 	Escribir "Ingrese el radio (en metros):"
@@ -70,3 +74,39 @@ Algoritmo 	djjd
 Fin Mientras
 
 FinAlgoritmo
+
+*** Ejecución Iniciada. ***
+seleccione la figura ( Cilindro = 1, Cubo = 2, Prisma triangular = 3)
+> 1
+figura seleccionada Cilindro
+Ingrese el radio (en metros):
+> 6
+Ingrese la altura (en metros):
+> 7
+Área: 113.1012 m²
+Volumen: 791.7084 m³
+desea finalizar el programa (101) o volver a iniciar
+> 9
+seleccione la figura ( Cilindro = 1, Cubo = 2, Prisma triangular = 3)
+> 2
+figura seleccionada Cubo
+Ingrese el lado (en metros):
+> 4
+Área: 16 m²
+Volumen: 64 m³
+desea finalizar el programa (101) o volver a iniciar
+> 5
+seleccione la figura ( Cilindro = 1, Cubo = 2, Prisma triangular = 3)
+> 3
+figura seleccionada Prisma triangular
+Ingrese la medida de la base (en metros):
+> 5
+Ingrese la medida de la altura (en metros):
+> 6
+Ingrese el ancho (en metros):
+> 7
+Área: 15 m²
+Volumen: 105 m³
+desea finalizar el programa (101) o volver a iniciar
+> 101
+*** Ejecución Finalizada. ***
