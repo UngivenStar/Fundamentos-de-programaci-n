@@ -14,7 +14,7 @@
 
 Descripción breve de la materia: Una materia introductoria que enseña los principios básicos del desarrollo de software.
 
-![separador](https://i.pinimg.com/originals/00/56/0c/00560cc961ecf456140d026801303954.gif)
+![separador](https://i.pinimg.com/originals/fa/14/27/fa1427d280b431afea5118a2b198f35f.gif)
 
 **Unidad 1**
 
