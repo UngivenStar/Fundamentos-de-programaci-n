@@ -1,4 +1,4 @@
-# *𝕱𝖚𝖓𝖉𝖆𝖒𝖊𝖓𝖙𝖔𝖘-𝖉𝖊-𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖆𝖈𝖎𝖔𝖓*
+## *𝕱𝖚𝖓𝖉𝖆𝖒𝖊𝖓𝖙𝖔𝖘-𝖉𝖊-𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖆𝖈𝖎𝖔𝖓*
 ![imagen](https://camo.githubusercontent.com/72469e1868c06fe0e9d94ba7c8dc715918d22cdd23b470fe2996cbe520495d1f/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f38342f64612f64612f38346461646130613564636664373930373030646633646438373839376165662e676966)
 
 
@@ -16,14 +16,14 @@ Descripción breve de la materia: Una materia introductoria que enseña los prin
 
 ![separador](https://i.pinimg.com/originals/00/56/0c/00560cc961ecf456140d026801303954.gif)
 
-**Unidad 1**
+# **Unidad 1**
 
 Descripción breve de la unidad: En esta unidad se aprendio acerca de los algoritmos, Metodología para la resolución de
 problemas, Tipos de datos básicos, Variables y constantes, Operadores y expresiones.
 
 [Ir a Unidad 1](https://github.com/UngivenStar/Fundamentos-de-programaci-n/tree/main/U1)
 
-**Unidad 2**
+# **Unidad 2**
 
 Descripción breve de la unidad: En esta unidad se aprendieron conceptos como Decisiones compuestas, anidadas y
 múltiples, Representación de algoritmos con estructuras de control selectivas, Conceptos básicos de contador acumulador y bandera.
@@ -37,7 +37,7 @@ Y finalmente representación de algoritmos con estructuras de control repetitiva
 
 [Ir a Unidad 2](https://github.com/UngivenStar/Fundamentos-de-programaci-n/tree/main/U2)
 
-**Unidad 3**
+# **Unidad 3**
 
 Descripción breve de la unidad: En esta unidad se vio principalmente Sub-algoritmos, Proceso de desarrollo de programas y el uso de herramientas como GitHub para nuestros códigos.
 
