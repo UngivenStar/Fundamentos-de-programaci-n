@@ -1,6 +1,6 @@
 # Fundamentos-de-programacion
 
-![Texto alternativo](https://media.istockphoto.com/id/1403514917/es/vector/planetas-y-fondo-de-nebulosa-en-estilo-pixel-art.jpg?s=612x612&w=0&k=20&c=kxs2Fa2_fZdNPcATSWp0xUtJNeTEFQq6gCozXCOLeqM=)
+![Texto alternativo](https://i.pinimg.com/originals/84/da/da/84dada0a5dcfd790700df3dd87897aef.gif)
 
 
 Materia: Fundamentos de programacion
