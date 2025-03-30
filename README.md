@@ -1,5 +1,5 @@
 # *𝕱𝖚𝖓𝖉𝖆𝖒𝖊𝖓𝖙𝖔𝖘-𝖉𝖊-𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖆𝖈𝖎𝖔𝖓*
-![imagen](https://i.pinimg.com/originals/42/14/bd/4214bdcfd880f2ae207a64f3fb97de24.gif)
+![imagen](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8TTB1_spiHbHKcBawKtmA-ynzFHZt1fXfuQ&s)
 
 
 **Materia:** Fundamentos de programacion
@@ -14,7 +14,7 @@
 
 Descripción breve de la materia: Una materia introductoria que enseña los principios básicos del desarrollo de software.
 
-![separador](https://i.pinimg.com/originals/fa/14/27/fa1427d280b431afea5118a2b198f35f.gif)
+![separador](https://i.pinimg.com/736x/0e/9f/a8/0e9fa8f672833d2501d6c48c688a0dbb.jpg)
 
 **Unidad 1**
 
